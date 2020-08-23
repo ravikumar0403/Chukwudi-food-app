@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id=container>
+        <section id="main">
+            <div id="main-header">
+                <div>
+                    <i class="fas fa-bars"></i>
+                    <p>Chukwudi</p>
+                </div>
+                <div id=search-bar>
+                    <input type="text" placeholder="Search">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="./assets/landing-illustration.png" alt="">
+                <div id="banner-text">
+                    <p id="offer">$0 delivery for 30 days! <img src="./assets/img-celeb.png" alt="celeb"></p>
+                    <p>$0 delivery fee for orders over $10 for 30 days</p>
+                </div>
+                <p>Learn more <i class="fas fa-arrow-right"></i></p>
+            </div>
+            <div id="header2">
+                <p>Restaurants <img src="./assets/img-burger.png" alt="burger"></p>
+                <button><i class="far fa-clock"> </i>Delivery: <span>Now</span><i class="fas fa-angle-down"></i></button>
+            </div>
+            <div id="grid-container">
+                <div class="grid-item" id="active">
+                    <img src="./assets/img-all-food.png" alt="all">
+                    <p>All</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assets/img-pizza.png" alt="pizza">
+                    <p>Pizza</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assets/img-asians.png" alt="asians">
+                    <p>Asian</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assets/img-burgers.png" alt="burgers">
+                    <p>Burgers</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assets/img-barbeque.png" alt="barbeque">
+                    <p>Barbecue</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assets/img-dessert.png" alt="dessert">
+                    <p>Desserts</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assets/img-thai.png" alt="thai">
+                    <p>Thai</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assets/img-sushi.png" alt="sushi">
+                    <p>Sushi</p>
+                </div>
+                <div>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+            <div id="restaurants-grid-container">
+                <div class="restaurants-grid-item">
+                    <div class="thumbnail">
+                        <img src="https://irepo.primecp.com/2015/06/223330/Bacon-and-Egg-Breakfast-Grilled-Cheese_ExtraLarge700_ID-1029586.jpg?v=1029586" alt="Bagel Story">
+                        <p>25-30 min</p>
+                    </div>
+                    <p>Bagel Story</p>
+                    <div>
+                        <p><i class="far fa-star"></i> 4.7</p>
+                        <p>Deli</p>
+                        <p>Bagels</p>
+                        <p>$</p>
+                    </div>
+                </div>
+                <div class="restaurants-grid-item">
+                    <div class="thumbnail">
+                        <img src="https://vegplatter.in/files/public/images/partner/menu/10/tandoori%20plain%20roti_0.jpg" alt="">
+                        <p>30-35 min</p>
+                    </div>
+                    <p>The Estaminet</p>
+                    <div>
+                        <p><i class="far fa-star"></i> 4.5</p>
+                        <p>Cafes</p>
+                        <p>Creperies</p>
+                        <p>$</p>
+                    </div>
+                </div>
+                <div class="restaurants-grid-item">
+                    <div class="thumbnail">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Breakfast_sandwich.jpg" alt="Le Paris Dakar">
+                        <p>40-60 min</p>
+                    </div>
+                    <p>Le Paris Dakar</p>
+                    
+                    <div>
+                        <p><i class="far fa-star"></i> 4.6</p>
+                        <p>Creperies</p>
+                        <p>Sandwich</p><p>$$</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sidebar">
+            <div id="side-top">
+                <div id="sidebar-header">
+                    <img src="./assets/img-user.png" alt="user">
+                    <p>3</p>
+                </div>
+                <p id=my-order>My <img src="./assets/img-smiley.png" alt=""><br>Order</p>
+                <div id="delivery-details">
+                    <div>
+                        <p class="detail" id="address">625 St Marks Ave</p>
+                        <p><i class="far fa-clock"></i> 35 min</p>
+                    </div>
+                    <div>
+                        <p class="detail">Edit</p>
+                        <p class="detail">Choose time</p>
+                    </div>
+                </div>
+                <div id="orders-container">
+                    <table>
+                        <tr>
+                            <td><img class="food-img" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2F4047101_4thof_july_burger_watermeloncocktail.jpg%3Fitok%3DBYM7AJmZ" alt="burger"></td>
+                            <td class="quantity">1 X</td>
+                            <td>Beach BBQBurger</td>
+                            <td class="amount">$14.99</td>
+                        </tr>
+                        <tr>
+                            <td><img class="food-img" src="https://www.thestatesman.com/wp-content/uploads/2019/05/french-fries.jpg" alt="french fries"></td>
+                            <td class="quantity">1 X</td>
+                            <td>French Fries</td>
+                            <td class="amount">$9.99</td>
+                        </tr>
+                        <tr>
+                            <td><img class="food-img" src="https://i.ytimg.com/vi/kXfJxdJbqjc/maxresdefault.jpg" alt="Cheese-Sause"></td>
+                            <td class="quantity">1 X</td>
+                            <td>Cheese Sause</td>
+                            <td class="amount">$14.99</td>
+                        </tr>
+                        <tr>
+                            <td><img src="./assets/img-car.png" alt="car"></td>
+                            <td colspan="2">Delivery</td>
+                            <td class="amount">$0.00</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="total">
+                    <p>Total:</p>
+                    <p id="total-amount">$25.97</p>
+                </div>
+            </div>
+            <div id="side-bottom">
+                <div>
+                    <p id="person-txt">Persons</p>
+                    <div id="number-of-items">
+                        <button>-</button>
+                        <p>1</p>
+                        <button>+</button>
+                    </div>
+                </div>
+                <button id="checkout-btn">Checkout<i class="fas fa-arrow-right"></i></button>
+            </div>
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/726548b92d.js" crossorigin="anonymous"></script>
+</body>
+</html>
